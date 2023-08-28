@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>ES Form - Spedizione</title>
+</head>
+<body>
+<form id="delivery" autocomplete="off">
+
+    <label for="name">Nome*</label>
+    <input id="name" type="text" name="name" placeholder="Nome" required>
+
+    <label for="LastName">Cognome*</label>
+    <input id="LastName" type="text" name="LastName" placeholder="Cognome" required>
+
+    <label for="address">Indirizzo</label>
+    <input id="address" type="text" name="address" placeholder="Indirizzo">
+
+    <label for="po">Civico</label>
+    <input id="po" name="po" type="text" placeholder="Civico">
+
+    <label for="cap">Cap</label>
+    <input id="cap" type="text" name="cap" placeholder="codice postale">
+
+    <label for="province">Provincia</label>
+    <select name="province" id="province">
+        <option value="MI"> milano</option>
+        <option value="To"> torino</option>
+        <option value="Other" selected> Altro</option>
+    </select>
+
+    <label for="city">Città</label>
+    <input id="city" type="text" name="city" placeholder="città">
+
+    <input type="submit" value="Invia">
+
+</form>
+
+</body>
+</html>
